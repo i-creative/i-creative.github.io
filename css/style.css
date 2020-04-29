@@ -198,6 +198,7 @@ body {
 .section-contact-us {
   margin-top: 120px;
   height: 200px;
+  overflow-y: hidden;
   background-color: #EAECF6;
 }
 
@@ -226,15 +227,16 @@ body {
 }
 
 footer {
-  height: 150px;
+  overflow-y: hidden;
+  height: 90px;
   background-color: #311F3F;
 }
 
 footer p {
   color: white;
   text-align: center;
-  padding-top: 70px;
-  font-size: 22px;
+  padding-top: 40px;
+  font-size: 15px;
   font-weight: lighter;
 }
 /*# sourceMappingURL=style.css.map */

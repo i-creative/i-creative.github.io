@@ -211,14 +211,15 @@ body{
    }
 }
 footer{
-   height: 150px;
+   overflow-y: hidden;;
+   height: 90px;
    background-color: #311F3F;
 
    p{
       color: white;
       text-align: center;
-      padding-top: 70px;
-      font-size: 14px;
+      padding-top: 40px;
+      font-size: 15px;
       font-weight: lighter;
    }
 }
