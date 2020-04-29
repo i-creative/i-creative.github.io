@@ -217,12 +217,12 @@ body{
 footer{
    height: 150px;
    background-color: #311F3F;
-
+   overflow-y: hidden;
    p{
       color: white;
       text-align: center;
       padding-top: 70px;
-      font-size: 15px;
+      font-size: 15px !important;
       font-weight: lighter;
    }
 }
