@@ -1,0 +1,221 @@
+body{
+   font-family: 'Assistant',sans-serif;
+   overflow-x: hidden
+}
+
+.navbar{
+   .navbar-brand{
+     img{
+        height: 80px;
+     }
+   }
+   background-color: #311F3F;
+   .navbar-nav{
+      .nav-link{
+         color: white !important;
+         font-size: 20px;
+         &.active{
+            font-weight: 600;
+         }
+
+         @media(min-width:992px){
+            margin-left: 60px;
+         }
+      }
+   }
+   .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+}
+
+.header{
+   background-color: #311F3F;
+   padding: 180px 0 45vh;
+   h1{
+      color: white !important;
+      margin-top: 12vh;
+      display: inline-block;
+      font-size: 80px;
+   }
+   p{
+      color: #c4c4c4;
+      font-size: 35px;
+   }
+   .btn{
+      padding: 10px 20px;
+      border: 1px solid #8900bc;
+      display: inline-block;
+      color: white;
+      &:hover{
+         color: rgb(0, 87, 248);
+      }
+   }
+   img{
+      margin-top: -61vh;
+      }
+   @media(max-width:991px){
+
+      h1{
+         margin-top: 5vh;
+         font-size: 60px;
+      }
+      p{
+         font-size: 30px;
+      }
+      img{
+         display: none;
+      }
+   }
+   }
+   
+.main{
+   @media(max-width:991px){
+      margin-top:5px
+   }
+   background-color: #ffffff;
+   position: sticky;
+   margin-top: -160px;
+   border-radius: 5px;
+  
+   .our-services{
+      margin-top:40px;
+   }
+
+   .our-service{
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 60px;
+      padding-left: 40px;
+   }
+
+   .head{
+      font-size: 30px;
+      font-weight: 500;
+   }
+   .title-service{
+      font-size: 18px;
+      font-weight: 500;
+   }
+   .caption-service{
+      
+      font-size: 14px;
+      font-weight: lighter;
+   }
+}
+.technology-we-use{
+   .container{
+     .caption{
+        h2{
+           font-size: 60px;  
+           padding-bottom: 20px;
+
+           @media(min-width:992px){
+              margin-top: 30vh;
+           }
+        }
+        p{
+            font-size: 18px;
+            color: #989191;
+            font-weight: lighter;
+        }
+        img{
+           height: 80%;
+           float: right;
+        }
+     }
+   }
+   @media(max-width:991px){
+      .container{
+         text-align: center;
+         .caption{
+            h2{
+               font-size: 30px;
+            }
+            p{
+               font-size: 14px;
+            }
+         }
+         img{
+            height: 280px;
+            margin-top: 20px;
+         }
+      }
+   }
+}
+
+.who-are-we{
+   .container{
+     margin-top: 14vh;
+     text-align: center; 
+      .capt{
+         font-size: 18px;
+         font-weight: lighter;
+         color: #989191;
+      }
+     img{
+        margin-top: 30px;
+     }
+
+     .name{
+        font-size: 22px;
+     }
+
+     .position{
+        font-size: 18px;
+        font-weight: lighter;
+        color: #989191;
+     }
+   }
+
+   .btn-project{
+      width: 116px;
+      height: 56;
+      background-color: #00ED98;
+      margin-right: 20px;
+   }
+
+   .btn-help{
+      width: 116px;
+      height: 56;
+      background-color: #A8FEDF;
+      color: #C3B1B1;
+   }
+}
+
+.section-contact-us{
+   margin-top:120px;
+   height: 200px;
+   background-color: #EAECF6;
+
+   .head{
+      font-size: 30px;
+      font-weight: 500;
+      padding-top: 20px;
+   }
+   .caption{
+      font-size: 20px;
+      font-weight: lighter;
+   }
+   .email{
+      font-size: 14px;
+      padding-right: 20px;
+   }
+   .whatsapp{
+      font-size: 14px;
+   }
+   .contact{
+      margin-top: 30px;
+   }
+}
+footer{
+   height: 150px;
+   background-color: #311F3F;
+
+   p{
+      color: white;
+      text-align: center;
+      padding-top: 70px;
+      font-size: 22px;
+      font-weight: lighter;
+   }
+}
