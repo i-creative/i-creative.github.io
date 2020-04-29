@@ -39,7 +39,7 @@ body {
 }
 
 .header h1 {
-  overflow-y: hidden;
+  overflow-y: hidden !important;
   color: white !important;
   margin-top: 12vh;
   display: inline-block;
